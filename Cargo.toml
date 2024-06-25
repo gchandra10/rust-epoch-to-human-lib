@@ -14,4 +14,4 @@ repository = "https://github.com/gchandra10/rust-epoch-to-human/"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chrono = "*"
+chrono = {}
