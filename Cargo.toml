@@ -1,0 +1,17 @@
+[package]
+name = "epoch_to_human"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ganesh Chandrasekaran"]
+description = "Convert Date from Epoch to Human readable and vice versa"
+documentation = "https://docs.rs/epoch-to-human"
+readme="README.md"
+license = "MIT"
+keywords = ["demo", "epoch","date","utc"]
+categories = ["date-processing"]
+repository = "https://github.com/gchandra10/rust-epoch-to-human/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "*"
